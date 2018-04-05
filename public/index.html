@@ -59,8 +59,7 @@
     <link rel='stylesheet' id='ninja-fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C400%2C600%2C700%7CRaleway%3A300%2C400%2C700&amp;ver=4.9.3' type='text/css' media='all' />
     <link rel='stylesheet' id='ninja-style-css' href='css/style6959.css?ver=4.9.3' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-style-css' href='css/custom6959.css?ver=4.9.3' type='text/css' media='all' />
-    <script type='text/javascript' src='js/jqueryb8ff.js?ver=1.12.4'></script>
-    <script type='text/javascript' src='js/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type='text/javascript' src='js/jquery.themepunch.tools.minc225.js?ver=5.4.1'></script>
     <script type='text/javascript' src='js/jquery.themepunch.revolution.minc225.js?ver=5.4.1'></script>
     <script type='text/javascript' src='js/modernizr.min6959.js?ver=4.9.3'></script>
@@ -471,25 +470,24 @@
     <script type='text/javascript' src='js/other-shortcodes972f.js?ver=5.0.1'></script>
 
     <script>
-        jQuery(document).ready(function($){
+        jQuery(document).ready(function(){
 
-
-        					$('form.wpcf7-form').on('submit', function(e) {
+        					jQuery('form.wpcf7-form').on('submit', function(e) {
 
         						e.preventDefault();
         						var bodyData = {
-        							name: $('input[name="name"]').val(),
-        							contact_no: $('input[name="contact_no"]').val(),
-        							region: $('select[name="region"]').val(),
-        							type: $('select[name="type"]').val(),
-        							email: $('input[name="email"]').val(),
-        							income: $('input[name="income"]').val(),
-        							borrow_amount: $('input[name="borrow_amount"]').val(),
-        							message: $('textarea[name="message"]').val(),
+        							name: jQuery('input[name="name"]').val(),
+        							contact_no: jQuery('input[name="contact_no"]').val(),
+        							region: jQuery('select[name="region"]').val(),
+        							type: jQuery('select[name="type"]').val(),
+        							email: jQuery('input[name="email"]').val(),
+        							income: jQuery('input[name="income"]').val(),
+        							borrow_amount: jQuery('input[name="borrow_amount"]').val(),
+        							message: jQuery('textarea[name="message"]').val(),
         						}
         						jQuery.ajax({
         							type: 'POST',
-        							url: 'https://clikcouch.herokuapp.com/mailer_api/',
+        							url: 'https://clikcouch.herokuapp.com/mailer_api/emasjaya',
         							data: {
         								'text': bodyData,
         							}
