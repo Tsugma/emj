@@ -1,0 +1,148 @@
+#header{
+	background:url('../images/emasjaya-1.jpg') top center no-repeat;background-size:cover;
+}
+body{ font-family: 'Raleway', sans-serif; }
+.white{ color:#fff; }
+.bold{ font-weight: 700; }
+.blue{ color:#49cabc; }
+.green{ color:#49cabc; }
+.header-middle{ background-color:transparent; }
+.gradientbg{
+	background: red; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#319db1, #49cabc); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#319db1, #49cabc); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#319db1, #49cabc); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#319db1, #49cabc); /* Standard syntax */
+	color:#fff;
+	padding:20px 40px;
+	text-align: center;
+}
+.gradientbg h1{ letter-spacing: 2px;margin-bottom: 0; }
+.gradientbg p,.blackbg p,.tagline h3{ margin-bottom: 0; }
+.blackbg{
+	background:rgba(0,0,0,0.8);
+	padding:30px 30px 10px 30px;
+}
+.bluebg{ background:#49cabc;color:#fff; }
+.wpcf7-form input:not([type="submit"]):not([type="reset"]), .wpcf7-form textarea, .wpcf7-form select{ border-radius: 0; }
+.wpcf7-form textarea{ height: 100px; }
+.btn.btn-default, .wpcf7-submit{ border:1px solid #49cabc;background:#49cabc;color:#fff;padding:8px 30px;border-radius: 30px;font-size:13px;font-weight: 700; }
+.btn.btn-default:hover, .wpcf7-submit:hover{ background:#fff;color:#319db1;border:1px solid #319db1; }
+.blackbg .wpcf7-submit{ background:none;border-radius: 0;width:100%;font-size:20px; }
+.blackbg .wpcf7-submit:hover{ background:#49cabc;color:#fff;border:1px solid #49cabc; }
+.tagline{ margin-top:130px;padding:0 50px 0 0; }
+.tagline h3{ font-size:35px; }
+.wpcf7-form-control-wrap .wpcf7-not-valid, #enquiry-footer .wpcf7-form-control-wrap .wpcf7-not-valid {
+    border: 1px solid red!important;
+}
+div.wpcf7-validation-errors{ color:#fff;margin:0; }
+ul#menu-primary li a{ color:#fff;font-size:12px;padding: 5px 0;margin:12px 20px;background-color:transparent;border-bottom: 1px solid transparent; }
+ul#menu-primary li a:hover {
+    border-bottom: 1px solid #49cabc;
+    color:#fff;
+}
+.wpcf7-form select{ color:rgba(0,0,0,0.3); }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: rgba(0,0,0,0.5);
+	font-size:13px;
+	font-family: 'Raleway', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: rgba(0,0,0,0.5);
+	font-size:13px;
+	font-family: 'Raleway', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: rgba(0,0,0,0.5);
+	font-size:13px;
+	font-family: 'Raleway', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: rgba(0,0,0,0.5);
+	font-size:13px;
+	font-family: 'Raleway', sans-serif;
+}
+
+h1.center_linedtitle:after{ content: '';width:35px;height:3px;background:#49cabc;margin:20px auto;display: block; }
+h1.center_linedtitle{ text-align: center;font-size:40px;letter-spacing: 5px; }
+
+.kenapa_bg{
+	background:url('../images/kenapa.jpg') no-repeat;background-size:cover;
+	text-align: center;
+}
+.kenapa_bg h5{ line-height: 1.5; }
+
+.kenapa_bg h1.center_linedtitle:after{ background:#fff; }
+.jenis_bg{ background:url('../images/jenispinjaman.jpg') no-repeat;background-size:cover;text-align: center; }
+.jenis_bg .col-md-6 .perniagaan:hover,.jenis_bg .col-md-6:hover .peribadi{
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.peribadi{ background:url('../images/jenis1-1.jpg') no-repeat;background-size:cover;padding:0 30px 30px 30px;min-height: 387px; }
+.perniagaan{ background:url('../images/jenis2-1.jpg') no-repeat;background-size:cover;padding:0 30px 30px 30px;min-height: 387px; }
+.jenis_bg img{ margin-top:-80px;background:#fff;padding:20px;box-shadow: 0 5px 15px rgba(0,0,0,0.5);border-radius:50%;margin-bottom: 35px; }
+.jenis_bg h1.center_linedtitle{ margin-bottom:80px;color:#49cabc;}
+h1.left_linedtitle:after{ content: '';width:35px;height:2px;background:#fff;margin:20px 0;display: block; }
+.peribadi p.descp,.perniagaan p.descp{ min-height: 100px;font-size:13px; }
+.jenis_bg h3{ font-size:30px; }
+.jenis_bg .btn.btn-default,.bluebg .btn.btn-default{ border:1px solid #fff;background:transparent;color:#fff; }
+.jenis_bg .btn.btn-default:hover,.bluebg .btn.btn-default:hover{ background:#fff;color:#319db1;border:1px solid #319db1; }
+#container .su-table th{ background:#000 !important;color:#fff !important; }
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif !important;
+ }
+ #copyright{ padding:20px 50px; }
+ #copyright p{ font-size:13px; }
+ a#scroll-to-top{ display: none !important; }
+
+ #container .su-table{ overflow: auto; }
+.mobile_view{ display: none; }
+.floating {background: #34af23; color: #fff; padding: 8px 15px; font-size: 18px;}
+.floating a {color: #fff;}
+
+div.wpcf7-mail-sent-ok{ color:#fff; }
+#floating-widget{ display: none; }
+
+.wpcf7-select option{
+	color:#000;
+}
+
+@media(max-width: 991px) {
+ 	.nflex-center{ display: block; }
+ 	#enquiryform{ clear: both;float: left; }
+ 	.tagline{ margin-top:215px;margin-bottom:70px;background:rgba(0,0,0,0.5);padding:30px 20px; }
+ 	h1{ font-size:35px; }
+ 	h2{ font-size:30px; }
+ 	h3{ font-size:25px; }
+ 	.jenis_bg h1.center_linedtitle{ margin-bottom: 125px; }
+ 	.peribadi{ margin-bottom:120px; }
+ 	.bluebg{ padding-bottom:45px; }
+ 	.mobile_view{ display: inline-block; }
+ 	.desktop_view{ display: none; }
+ 	#header{ background-position: left; }
+ 	#enquiryform_mobile{ display: block; }
+ 	#container .su-list ul{ margin-bottom:0 !important; }
+ 	.logo_row{ padding:20px 0; }
+
+}
+@media(max-width: 768px) {
+	.logo_row{ background: rgba(0,0,0,0.3);padding: 10px 0; }
+}
+@media(max-width: 480px) {
+	.scroll-to-top{ bottom:10%; }
+	#floating-widget{ display: block; }
+	.blackbg{ padding:15px; }
+
+	p{ font-size:13px; }
+	h1.center_linedtitle,h1{ font-size:23px; }
+ 	h2{ font-size:25px; }
+ 	.tagline h3,h3{ font-size:22px; }
+	#header{
+		background-position: 20% top;
+		background-size: cover;
+		/*background:#d6d6d6 url('/wp-content/uploads/2017/12/mobileslider.jpg') bottom no-repeat;*/
+	}
+
+}
